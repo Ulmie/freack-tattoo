@@ -1,0 +1,473 @@
+<!DOC TYPE>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>FreakTattoo</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Open+Sans:wght@700&family=Raleway:wght@300;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b579f09d5b.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+</head>
+
+<body id="body">
+<!-- Sprites -->
+<svg style="display: none">
+    <symbol id="facebook" viewBox="0 0 155.139 155.139">
+        <path d="M89.584,155.139V84.378h23.742l3.562-27.585H89.584V39.184
+		c0-7.984,2.208-13.425,13.67-13.425l14.595-0.006V1.08C115.325,0.752,106.661,0,96.577,0C75.52,0,61.104,12.853,61.104,36.452
+		v20.341H37.29v27.585h23.814v70.761H89.584z"/>
+    </symbol>
+    <symbol id="twitter" viewBox="0 0 512 512">
+        <path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+			c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+			c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+			c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+			c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+			c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+			C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+			C480.224,136.96,497.728,118.496,512,97.248z"/>
+    </symbol>
+    <symbol id="in" viewBox="0 0 512 512">
+        <path d="m475.074219 0h-438.148438c-20.394531 0-36.925781 16.53125-36.925781 36.925781v438.148438c0 20.394531 16.53125 36.925781 36.925781 36.925781h438.148438c20.394531 0 36.925781-16.53125 36.925781-36.925781v-438.148438c0-20.394531-16.53125-36.925781-36.925781-36.925781zm-293.464844 387h-62.347656v-187.574219h62.347656zm-31.171875-213.1875h-.40625c-20.921875 0-34.453125-14.402344-34.453125-32.402344 0-18.40625 13.945313-32.410156 35.273437-32.410156 21.328126 0 34.453126 14.003906 34.859376 32.410156 0 18-13.53125 32.402344-35.273438 32.402344zm255.984375 213.1875h-62.339844v-100.347656c0-25.21875-9.027343-42.417969-31.585937-42.417969-17.222656 0-27.480469 11.601563-31.988282 22.800781-1.648437 4.007813-2.050781 9.609375-2.050781 15.214844v104.75h-62.34375s.816407-169.976562 0-187.574219h62.34375v26.558594c8.285157-12.78125 23.109375-30.960937 56.1875-30.960937 41.019531 0 71.777344 26.808593 71.777344 84.421874zm0 0"/>
+    </symbol>
+</svg>
+
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__inner">
+            <a href="./index.html" class="header__logo">
+               <div class="header__title">Freack<span>Tattoo</span></div>
+            </a>
+            <nav class="nav" id="nav">
+                <a class="nav__link" id="navLink" href="#" data-scroll="#feature">About</a>
+                <a class="nav__link" id="navLink" href="./pages/works.html">Works</a>
+                <a class="nav__link" id="navLink" href="#" data-scroll="#team">Our Team</a>
+                <a class="nav__link" id="navLink" href="#" data-scroll="#reviews">Testimonials</a>
+                <a class="nav__link" id="navLink" href="#" data-scroll="#download">Contacts</a>
+            </nav>
+
+            <button class="burger" type="button" id="navToggle">
+                <span class="burger__item">Menu</span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<div class="intro" id="intro">
+    <div class="container">
+        <div class="intro__inner">
+            <h1 class="intro__title">Lorem ipsum dolor sit amet consectetur.</h1>
+            <h2 class="intro__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna vel scelerisque nisl consectetur et.</h2>
+            <a class="button button--gold" href="#" data-scroll="#download">Find Out More</a>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="feature">
+    <div class="feature">
+        <div class="feature__item">
+            <img class="feature__icon" src="assets/images/feature/feature_3.png" alt="">
+            <h4 class="feature__title">Easily Customised</h4>
+            <div class="feature__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</div>
+        </div>
+        <div class="feature__item">
+            <img class="feature__icon" src="assets/images/feature/feature_3.png" alt="">
+            <h4 class="feature__title">Responsive Ready</h4>
+            <div class="feature__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</div>
+        </div>
+        <div class="feature__item">
+            <img class="feature__icon" src="assets/images/feature/feature_3.png" alt="">
+            <h4 class="feature__title">Modern Design</h4>
+            <div class="feature__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</div>
+        </div>
+        <div class="feature__item">
+            <img class="feature__icon" src="assets/images/feature/feature_3.png" alt="">
+            <h4 class="feature__title">Clean Work</h4>
+            <div class="feature__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</div>
+        </div>
+        <div class="feature__item">
+            <img class="feature__icon" src="assets/images/feature/feature_3.png" alt="">
+            <h4 class="feature__title">Ready to Ship</h4>
+            <div class="feature__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</div>
+        </div>
+        <div class="feature__item">
+            <img class="feature__icon" src="assets/images/feature/feature_3.png" alt="">
+            <h4 class="feature__title">Fust Feedback</h4>
+            <div class="feature__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</div>
+        </div>
+    </div>
+</div>
+
+<div class="works gallery-list" id="works">
+    <a href="assets/images/works/11.jpg" class="works__item">
+        <div class="works__img">
+            <img src="assets/images/works/11.jpg" alt="">
+        </div>
+        <div class="works__content">
+            <div class="works__text">Project Name</div>
+            <div class="works__subtext">Traditional Tattoo</div>
+        </div>
+    </a>
+    <a href="assets/images/works/22.jpg" class="works__item">
+        <div class="works__img">
+            <img src="assets/images/works/22.jpg" alt="">
+        </div>
+        <div class="works__content">
+            <div class="works__text">Project Name</div>
+            <div class="works__subtext">Traditional Tattoo</div>
+        </div>
+    </a>
+    <a href="assets/images/works/33.jpg" class="works__item">
+        <div class="works__img">
+            <img src="assets/images/works/33.jpg" alt="">
+        </div>
+        <div class="works__content">
+            <div class="works__text">Project Name</div>
+            <div class="works__subtext">Traditional Tattoo</div>
+        </div>
+    </a>
+    <a href="assets/images/works/44.jpg" class="works__item">
+        <div class="works__img">
+            <img src="assets/images/works/44.jpg" alt="">
+        </div>
+        <div class="works__content">
+            <div class="works__text">Project Name</div>
+            <div class="works__subtext">Traditional Tattoo</div>
+        </div>
+    </a>
+
+    <a href="assets/images/works/55.jpg" class="works__item">
+        <div class="works__img">
+            <img src="assets/images/works/55.jpg" alt="">
+        </div>
+        <div class="works__content">
+            <div class="works__text">Project Name</div>
+            <div class="works__subtext">Traditional Tattoo</div>
+        </div>
+    </a>
+    <a href="assets/images/works/66.jpg" class="works__item">
+        <div class="works__img">
+            <img src="assets/images/works/66.jpg" alt="">
+        </div>
+        <div class="works__content">
+            <div class="works__text">Project Name</div>
+            <div class="works__subtext">Traditional Tattoo</div>
+        </div>
+    </a>
+    <a href="assets/images/works/77.jpg" class="works__item">
+        <div class="works__img">
+            <img src="assets/images/works/77.jpg" alt="">
+        </div>
+        <div class="works__content">
+            <div class="works__text">Project Name</div>
+            <div class="works__subtext">Traditional Tattoo</div>
+        </div>
+    </a>
+    <a href="assets/images/works/88.jpg" class="works__item">
+        <div class="works__img">
+            <img src="assets/images/works/88.jpg" alt="">
+        </div>
+        <div class="works__content">
+            <div class="works__text">Project Name</div>
+            <div class="works__subtext">Traditional Tattoo</div>
+        </div>
+    </a>
+</div>
+
+<div class="team" id="team">
+    <div class="container">
+        <div class="team__inner">
+            <div class="team__item" id="team__item1">
+                <img class="team__img" src="assets/images/our_team/11.jpg" alt="">
+                <div class="team__title">Victoria Valdez</div>
+                <div class="team__rang">Founder, Tattoo Master</div>
+                <div class="team__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</div>
+                <div class="social">
+                    <a class="social__item" href="#">
+                        <svg class="social__icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="social__icon">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="social__icon">
+                            <use xlink:href="#in"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="team__item" id="team__item2">
+                <img class="team__img" src="assets/images/our_team/22.jpg" alt="">
+                <div class="team__title">Timothy Reed</div>
+                <div class="team__rang">Co-Founder, Tattoo Master</div>
+                <div class="team__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</div>
+                <div class="social">
+                    <a class="social__item" href="#">
+                        <svg class="social__icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="social__icon">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="social__icon">
+                            <use xlink:href="#in"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="team__item" id="team__item3">
+                <img class="team__img" src="assets/images/our_team/33.jpg" alt="">
+                <div class="team__title">Ruth Woods</div>
+                <div class="team__rang">Tattoo Master</div>
+                <div class="team__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</div>
+                    <div class="social">
+                    <a class="social__item" href="#">
+                        <svg class="social__icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="social__icon">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="social__icon">
+                            <use xlink:href="#in"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="team__item" id="team__item4">
+                <img class="team__img" src="assets/images/our_team/44.jpg" alt="">
+                <div class="team__title">Beverly Little</div>
+                <div class="team__rang">Tattoo Master</div>
+                <div class="team__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</div>
+                <div class="social">
+                    <a class="social__item" href="#">
+                        <svg class="social__icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="social__icon">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="social__icon">
+                            <use xlink:href="#in"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modals -->
+
+<div class="modal" id="modal">
+    <div class="modal__dialog">
+       
+       <button class="modal__close" id="modal__close" type="button">
+           <img src="./assets/images/modal-close.svg" alt="">
+       </button>
+        
+        <div class="modal__work">
+            
+            <div class="modal__work-preview">
+                <img class="modal__work-preview-photo" src="#" alt="">
+            </div>
+            <div class="modal__work-content">
+                
+                <div class="modal__work-header">
+                    <div class="modal__work-title">PROJECT TITLE</div>
+                    <div class="modal__work-info">CATEGORY <span class="modal__work-divider">|</span> 2021</div>
+                </div>
+
+                <div class="modal__work-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus soluta nemo accusantium quasi neque ex laudantium accusamus illum officiis culpa corporis deserunt, sint, ratione nobis maiores magni eaque sunt possimus.</p>
+                </div>
+
+                <div class="instagram gallery-list">
+					<a class="instagram__item" id="item1" href="assets/images/works/33.jpg">
+						<img id="item11" src="assets/images/works/33.jpg" alt="">
+					</a>
+					<a class="instagram__item" id="item2" href="assets/images/works/33.jpg">
+						<img id="item22" src="assets/images/works/33.jpg" alt="">
+					</a>
+					<a class="instagram__item" id="item3" href="assets/images/works/33.jpg">
+						<img id="item33" src="assets/images/works/33.jpg" alt="">
+					</a>
+					<a class="instagram__item" id="item4" href="assets/images/works/33.jpg">
+						<img id="item44" src="assets/images/works/33.jpg" alt="">
+					</a>
+					<a class="instagram__item" id="item5" href="assets/images/works/33.jpg">
+						<img id="item55" src="assets/images/works/33.jpg" alt="">
+					</a>
+					<a class="instagram__item" id="item6" href="assets/images/works/33.jpg">
+						<img id="item66" src="assets/images/works/33.jpg" alt="">
+					</a>
+					<a class="instagram__item" id="item7" href="assets/images/works/33.jpg">
+						<img id="item77" src="assets/images/works/33.jpg" alt="">
+					</a>
+					<a class="instagram__item" id="item8" href="assets/images/works/33.jpg">
+						<img id="item88" src="assets/images/works/33.jpg" alt="">
+					</a>
+					<a class="instagram__item" id="item9" href="assets/images/works/33.jpg">
+						<img id="item99" src="assets/images/works/33.jpg" alt="">
+					</a>
+				</div>
+                
+                <div class="modal__work-client">
+                    <div class="modal__work-client-name">Number:</div>
+                    <div class="modal__work-client-prof" id="number">+375295854444</div>
+                </div>
+                
+                
+            </div>
+            
+        </div> <!-- modal__work -->
+        
+    </div> <!-- modal__dialog -->
+</div> <!-- Modal -->
+
+<div class="reviews" id="reviews">
+    <div class="container">
+
+        <div class="reviews__slider" id="reviewsSlider">
+
+            <div class="slick-item">
+                <div class="reviews__item">
+                    <div class="reviews__photo">
+                        <img class="reviews__img" src="assets/images/slider/11.jpg" alt="">
+                    </div>
+                    <div class="reviews__content">
+                        <div class="reviews__text">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</div>
+                        <div class="reviews__name">Susan Sims, Interaction Designer at XYZ</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="slick-item">
+                <div class="reviews__item">
+                    <div class="reviews__photo">
+                        <img class="reviews__img" src="assets/images/slider/22.jpg" alt="">
+                    </div>
+                    <div class="reviews__content">
+                        <div class="reviews__text">“Lorem ipsum dolor sit amet, obcaecati quo. Accusantium aperiam architecto consequuntur cum debitis, dolor est necessitatibus rerum similique ullam, vero vitae voluptatem, voluptatum.”</div>
+                        <div class="reviews__name">Susan Sims, Interaction Designer at XYZ</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slick-item">
+                <div class="reviews__item">
+                    <div class="reviews__photo">
+                        <img class="reviews__img" src="assets/images/slider/33.jpg" alt="">
+                    </div>
+                    <div class="reviews__content">
+                        <div class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis est harum iure obcaecati quo. Accusantium aperiam architecto consequuntur cum debitis, dolor est necessitatibus rerum similique ullam, vero vitae voluptatem, voluptatum.”</div>
+                        <div class="reviews__name">Susan Sims, Interaction Designer at XYZ</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div class="download" id="download">
+    <div class="container">
+        <div class="download__inner">
+            <div class="download__title">Are You Ready to Start? Send Now For me!</div>
+            <div class="download__subtitle">Fusce dapibus, tellus ac cursus commodo</div>
+            <a class="button button--gold button--long" href="#">Contact Us</a>
+        </div>
+    </div>
+</div>
+
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__item">
+                <div class="footer__title">Location</div>
+                <address class="footer__address">
+                    <div>3481 Melrose Place</div>
+                    <div>Beverly Hills, CA 90210</div>
+                </address>
+            </div>
+            <div class="footer__item">
+                <div class="footer__title">Share with Love</div>
+                <div class="social social--footer">
+                    <a class="social__item social__item--footer" href="#">
+                        <svg class="social__icon social__icon--footer">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item social__item--footer" href="#">
+                        <svg class="social__icon social__icon--footer">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item social__item--footer" href="#">
+                        <svg class="social__icon social__icon--footer">
+                            <use xlink:href="#in"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__item">
+                <div class="footer__title">About FreakTattoo</div>
+                <div class="footer__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <div class="container">
+            <div class="copyright__text">
+                <div>Copyright © 2022 FreakTattoo. All Rights Reserved</div>
+                <div>Made <span>by Anna Cymbarevich</span></div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Javascript -->
+<script src="assets/js/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+  <script>
+    $(".gallery-list").magnificPopup({
+      delegate: "a",
+      type: "image",
+      gallery: {
+        enabled: true
+      }
+    });
+  </script>
+</body>
+</html>
